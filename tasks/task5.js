@@ -2,7 +2,7 @@
 //  і повертає кількість входжень цього символу в рядку.
 
 
-function countOccurrences(str, char) {
+ function countOccurrences(str, char) {
     let count = 0;
     for (let letter of str) {
         if (letter === char) {

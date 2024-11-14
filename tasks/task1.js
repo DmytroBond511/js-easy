@@ -1,4 +1,4 @@
-function replaceVowels(str) {
+ function replaceVowels(str) {
     const vowels = ['a', 'e', 'i', 'o', 'u'];
     let result = '';
     

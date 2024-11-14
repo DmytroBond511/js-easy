@@ -1,5 +1,5 @@
 
-function sumArray(numbers) {
+ function sumArray(numbers) {
 	let sum = 0;
 	
 	bash

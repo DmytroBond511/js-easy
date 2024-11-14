@@ -1,4 +1,4 @@
-function reverseStringSkipNumbers(str) {
+ function reverseStringSkipNumbers(str) {
     let letters = str.split('')
         .filter(char => isNaN(char) || char === ' ')
         .reverse();
