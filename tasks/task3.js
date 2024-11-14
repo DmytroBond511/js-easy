@@ -1,17 +1,22 @@
-// Задача: Напишіть функцію sumArray, яка приймає масив чисел і 
-// повертає їхню суму. Використовуйте цикл для обчислення суми.
 
 function sumArray(numbers) {
-	let sum = 0; // Ініціалізуємо змінну для зберігання суми
+	let sum = 0;
 	
-	for (let number of numbers) {
-	  sum += number; // Додаємо кожне число до загальної суми
+	bash
+	
+	for (let i = 0; i < numbers.length; i++) {
+		sum += numbers[i];
 	}
 	
-	return sum; // Повертаємо суму
-  }
-
-console.log(sumArray([1, 2, 3, 4, 5])); // Виведе: 15
-console.log(sumArray([10, 20, 30]));    // Виведе: 60
-
-module.exports = sumArray;
+	return sum;
+	
+	}
+	
+	let numbers = [1, 2, 3, 4, 5];
+	console.log(sumArray(numbers));
+	
+	let numbers2 = [10, 20, 30];
+	console.log(sumArray(numbers2));
+	
+	let emptyArray = [];
+	console.log(sumArray(emptyArray));
